@@ -63,3 +63,7 @@ end
 def volume_of_sphere(radius)
   return (4*3.14*(radius*radius*radius))/3
 end
+
+def far_to_cel(farenheit)
+  return (farenheit - 32) * (5/9)
+end
